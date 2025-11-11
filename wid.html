@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wid.css">
+</head>
+<body>
+    <header>
+        <h1>Playstation 1</h1>
+        <p>Saiba tudo sobre o lendário Playstation</p>
+    </header>
+    <section>
+        <h2>O que você ira aprender:</h2>
+        <ul>
+            <li>Quando a Microsoft foi criada</li>
+            <li>Qual a ideia inicial</li>
+            <li>Quando o Xbox 360 foi criado</li>
+        </ul>
+
+<button onclick="mostrarDetalhes()">Ver detalhes da sony</button>
+<div class="detalhes" id="detalhes">
+    <p>A Microsoft é uma maior empresa de games do mundo...</p>
+</div>
+    </section>
+
+<section class="quiz">
+    <h2>sla</h2>
+    <p>Qual é a saída do código abaixo?</p>
+</section>
+
+<script>
+    function mostrarDetalhes() {
+        const detalhes = document.getElementById("detalhes");
+        if (detalhes.style.display === "block") {
+            detalhes.style.display = "none";
+        } else {
+            detalhes.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>

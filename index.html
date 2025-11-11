@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho com Menu e Ícones</title>
+
+    <!-- Importa os ícones do Font Awesome -->
+    <!-- Essa biblioteca possui vários ícones prontos que podem ser usados com <i class="..."> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"&gt;
+
+    <!-- Arquivo CSS externo onde você vai estilizar o cabeçalho -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   
+<!-- Cabeçalho da página -->
+<header class="cabecalho">
+   
+    <!-- Container do lado esquerdo: logo + menu -->
+    <div class="container-esquerda">
+
+        <!-- Logo do site -->
+        <img src="caixao.png" alt="Logo" class="logo">
+
+        <!-- Menu principal -->
+        <ul class="lista-menu">
+
+            <!-- ITEM 1: Programação -->
+            <li>
+                <!-- Ícone de código (fas = sólido, fa-code = ícone de código) -->
+                <i class="fa-solid fa-ghost"></i> Fantasias</a>
+
+                <!-- Submenu com linguagens -->
+                <ul>
+                    <!-- Ícone do Python (fab = marcas, fa-python = logo Python) -->
+                    <li><a href="samhain.html"><i class="fa-solid fa-user"></i>Samhain</a></li>
+                    <!-- Ícone do Java -->
+                    <li><a href="fantasias.html"><i class="fa-solid fa-trophy"></i>Fantasias</a></li>
+                    <!-- Ícone do JavaScript -->
+                    <li><a href="aboboras.html"><i class="fa-solid fa-bolt"></i>Abóboras</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 2: Front-end -->
+            <li>
+                <!-- Ícone laptop/código -->
+                <i class="fa-solid fa-droplet"></i> Maquiagem</a>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-fire"></i>Fogo</a></li>
+                    <li><a href="#"><i class="fa-solid fa-eye-slash"></i>Eye</a></li>
+                    <li><a href="#"><i class="fab fa-react"></i> React</a></li>
+                </ul>
+            </li>
+            <!-- ITEM 3: Infraestrutura -->
+            <li>
+                <i class="fa-solid fa-skull"></i> Estátuas</a>
+                <ul>
+                    <li><a href="#"><i class="fas fa-network-wired"></i> Redes</a></li>
+                    <li><a href="#"><i class="fas fa-cloud"></i> Cloud</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 4: Business -->
+            <li>
+                <i class="fa-solid fa-hat-wizard"></i> Acessórios</a>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Marketing</a></li>
+                    <li><a href="#"><i class="fas fa-handshake"></i> Vendas</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 5: Design & UX -->
+            <li>
+                <i class="fa-solid fa-spider"></i> Decoração</a>
+                <ul>
+                    <li><a href="#"><i class="fas fa-paint-brush"></i> UI Design</a></li>
+                    <li><a href="#"><i class="fas fa-drafting-compass"></i> Prototipagem</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Container do lado direito: ícones de atalho -->
+    <div class="container-direita">
+        <!-- Ícone de coração -->
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <!-- Ícone de home -->
+        <a href="#"><i class="fas fa-home"></i></a>
+        <!-- Ícone de usuário -->
+        <a href="#"><i class="fas fa-user"></i></a>
+    </div>
+</header>
+<main class="conteudo">
+    <section class="introducao">
+        <h1>Bem-vindo ao Mundo do Halloween</h1>
+        <p>Halloween é, para alguns, uma forma de se engajar numa festividade cultural importada, 
+        com origens no festival celta do Samhain, que marcava o fim do verão e o período das colheitas, e que ao 
+        longo do tempo se misturou com as comemorações católicas do Dia de Todos os Santos</p>
+        <img src="download (3).jfif" alt="Imagem Halloween">
+    </section>
+    <section class="beneficios">
+        <h2>Características do Halloween</h2>
+        <ul>
+            <li><i class="fa-solid fa-check"></i>Halloween (abreviação de All Hallows' Evening ou "Véspera de Todos os Santos").</li>
+            <li><i class="fa-solid fa-check"></i>31 de outubro</li>
+            <li><i class="fa-solid fa-check"></i>Celebração com raízes em tradições celtas (festival de Samhain), posteriormente influenciada por costumes cristãos.</li>
+        </ul>
+    </section>
+    <section class="recursos">
+        <h2>Recursos Recomendados</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="download (2).jfif" alt="abobora">
+                <h3>Abóboras</h3>
+                <p>A abóbora é um dos símbolos mais marcantes do Halloween, utilizada para criar as tradicionais "lanterna de abóbora" ou "Jack-o'-lantern".</p>
+                <a href="aboboras.html">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="download (1).jfif" alt="bruxas">
+                <h3>Fantasias</h3>
+                <p>As origens da tradição de fantasiar-se no Halloween vêm de festivais celtas antigos, como o Samhain, onde as pessoas usavam disfarces para enganar e afastar os maus espíritos que se acreditava que perambulavam pela Terra nessa época.</p>
+                <a href="fantasias.html">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="Sahmhain.jpg" alt="disney">
+                <h3>Samhain: O Verdadeiro Início</h3>
+                <p>Samhain era um antigo festival celta, celebrado por volta de 1 de novembro, que marcava o fim do verão e das colheitas, e o início do inverno, sendo considerado o Ano Novo celta. Os celtas acreditavam que o véu entre o mundo dos vivos e o dos mortos se tornava mais fino nesta época, permitindo a visita de espíritos. Fogueiras eram acesas para afastar espíritos malignos, e as pessoas usavam fantasias para se confundir com os mortos.</p>
+                <a href="samhain.html">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="rodape">
+    <div class="container-rodape">
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+        <ul class="links-rodape">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
